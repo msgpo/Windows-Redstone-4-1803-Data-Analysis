@@ -25,7 +25,9 @@ Gravity: Measures the force of gravity.
 
 
 ## Reference
-
+* https://docs.microsoft.com/en-us/windows/configuration/basic-level-windows-diagnostic-events-and-fields
+* https://docs.microsoft.com/en-us/windows/configuration/enhanced-diagnostic-data-windows-analytics-events-and-fields
+* https://www.justice.gov/atr/us-v-microsoft-courts-findings-fact
 
 
 ## Conclusion
