@@ -1,0 +1,11 @@
+Data We Collect
+===============
+When you acquire, install and use the Program, Microsoft collects information about you, your devices, applications and networks, and your use of those devices, applications and networks. Examples of data we collect include your name, email address, preferences and interests; browsing, search and file history; phone call and SMS data; device configuration and sensor data; and application usage. For example, when you:
+
+install the Program, we may collect information about your device and applications and use it for purposes such as determining or improving compatibility,
+
+use voice input features like speech-to-text, we may collect voice information and use it for purposes such as improving speech processing,
+
+open a file, we may collect information about the file, the application used to open the file, and how long it takes and use it for purposes such as improving performance, or
+
+enter text, we may collect typed characters and use them for purposes such as improving auto complete and spell check features.

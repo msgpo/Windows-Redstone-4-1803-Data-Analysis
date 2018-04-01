@@ -1,0 +1,1 @@
+https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-configuration-service-provider

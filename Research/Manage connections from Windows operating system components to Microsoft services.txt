@@ -1,0 +1,6 @@
+https://technet.microsoft.com/en-us/library/mt577208(v=vs.85).aspx
+
+Short url:
+https://aka.ms/ConfigureTelemetry
+
+Keep in mind that this article constantly gets updated. There is no versions history.
