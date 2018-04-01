@@ -42,7 +42,7 @@ Some services never submitting anything unless you use them, some running in the
 * Web Search
 * Cortana (Anonymous info, usage information will be shared but not search history, Microsoft Account information, or specific location the stream is encrypted).
 * Possible some other tasks & services.msc related automatically enabled services (Keep in mind that even if there automatically started doesn't mean there submitting something unless xyz behavior was triggered).
-* Microsoft certified diagnostic tools: msinfo32.exe, powercfg.exe, and dxdiag.exe.
+* Microsoft certified diagnostic tools: msinfo32.exe, powercfg.exe, and dxdiag.exe, lsass.exe (it is listening and calls svchost.exe under several circumstances)
 
 
 Windows 10 Enterprise edition
