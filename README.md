@@ -40,7 +40,7 @@ Some services never submitting anything unless you use them, some running in the
 * Diagnostics Tracking Service (KB3022345 & more) - called during the setup.exe & via task scheduler
 * Connected User Experiences and Telemetry aka DiagTrack (svchost.exe -k utcsvc -p) can be manually stopped.
 * Web Search
-* Cortana
+* Cortana (Anonymous info, usage information will be shared but not search history, Microsoft Account information, or specific location the stream is encrypted).
 * Possible some other tasks & services.msc related automatically enabled services (Keep in mind that even if there automatically started doesn't mean there submitting something unless xyz behavior was triggered).
 * Microsoft certified diagnostic tools: msinfo32.exe, powercfg.exe, and dxdiag.exe.
 
@@ -64,6 +64,8 @@ Windows 10 Enterprise edition
 * Offline maps (enabled by default but optional since it doesn't send any data unless you use it)
 * OneDrive (enabled by default)
 * Preinstalled apps (enabled by default)
+* Retail Demo Service (enabled by default)
+* Homegroup (gets removed in RS 5)
 
 
 Settings > Privacy via GPO or MDM/Registry or cmd line
