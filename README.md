@@ -1,22 +1,25 @@
 ## Windows Redstone 4 (1803 Data analysis)
 
-Explains the telemetry, opt-out methods and provides some Whireshark/Burp dumps with an explanation. All findings are on the Enterprise Redstone 4 (Spring Creators Update) -> 17133.1.180323-1312.RS4_RELEASE_CLIENTCOMBINED_UUP_X64FRE_EN-US (created from official UUP files). 
+Explains the telemetry, opt-out methods and provides some Wireshark/Burp dumps with an explanation. All findings are on the Enterprise Redstone 4 (Spring Creators Update) -> 17133.1.180323-1312.RS4_RELEASE_CLIENTCOMBINED_UUP_X64FRE_EN-US (created from official UUP files). 
 
 The pcaps are there in case you want to verify my words and decipher the traffic in order to see what is been transmitted.
 
-Please do not ask if I do this for Pro versions too, this project here is really huge and I don't have time to do this every month when something is changed or on oher versions. The main goal is to identify what is been collected after you changed the telemetry via gpedit.msc (Group Policy Editor) to 0 [security only] in order to see if Microsoft holds what they promise or not. This must be done objectively.
+Please do not ask if I do this for Pro versions too, this project here is really huge and I don't have time to do this every month when something is changed or on other versions. The main goal is to identify what is been collected after you changed the telemetry via gpedit.msc (Group Policy Editor) to 0 [security only] in order to see if Microsoft holds what they promise or not. This must be done objectively.
+
+
+The default telemetry level is 'Full' for Windows 10 Home and Pro and Enhanced for Enterprise edition. On a device that is running an Insider preview edition, this value is set to Full and can only be changed by installing a released version.
 
  
 Test procedure:
 ===============
 * 17133.1.180323-1312 x64 Enterprise (no OEM)
-* No additional software installed except Whireshark, NetLimiter & NetWorx 
+* No additional software installed except Wireshark, NetLimiter & NetWorx 
 * No tools to 'manipulate any settings (registry, gpedit.msc) 
 * Gpedit.msc telemetry is set to 0 -> security only.
 * No KB's installed.
 * No HOSTS entries.
 * The GPO and Registry settings must be untouched which means a fresh user account must be used.
-* The traffic must be re-directed trough a proxy (router/software) in order to catch everyting since Microsoft use it's own DNS mechanism which can't be disabled anymore via services.msc (only via registry and this will be overridden next restart).
+* The traffic must be re-directed trough a proxy (router/software) in order to catch everything since Microsoft use it's own DNS mechanism which can't be disabled anymore via services.msc (only via registry and this will be overridden next restart).
 * The view must be objective based on the findings, not 'what you think MS might do or not do' which means even if there is a connection we need to decipher the connection in order to see what is (or not) been collected.
 
 My own IP was obfuscated in order to protect my real location. My IP was replaced with: 
@@ -48,7 +51,7 @@ Windows 10 Enterprise edition
 * Automatic Root Certificates Update (enabled by default) 
 * Cortana and Search (enabled by default but not active unless you use it the first time)
 * Date & Time (enabled by default) 
-* Device metadata retrieval (enabled by default)
+* Device meta-data retrieval (enabled by default)
 * Find My Device (optional)
 * Font streaming (enabled by default)
 * Insider Preview builds (optional + requires an Account)
@@ -150,10 +153,4 @@ Gravity: Measures the force of gravity.
 ....
 
 
-## Reference
-* https://docs.microsoft.com/en-us/windows/configuration/basic-level-windows-diagnostic-events-and-fields
-* https://docs.microsoft.com/en-us/windows/configuration/enhanced-diagnostic-data-windows-analytics-events-and-fields
-* https://www.justice.gov/atr/us-v-microsoft-courts-findings-fact
 
-
-## Conclusion
