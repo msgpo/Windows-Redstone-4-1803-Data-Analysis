@@ -1,10 +1,10 @@
 ## Windows Redstone 4 (1803 Data analysis)
 
-Explains the telemetry, opt-out methods and provides some Wireshark/Burp dumps with an explanation. All findings are on the Enterprise Redstone 4 (Spring Creators Update) -> 17133.1.180323-1312.RS4_RELEASE_CLIENTCOMBINED_UUP_X64FRE_EN-US (created from official UUP files). 
+Explains Windows telemetry, opt-out methods and provides some Wireshark/Burp dumps with an explanation. All findings are on the Enterprise Redstone 4 (Spring Creators Update) -> 17133.1.180323-1312.RS4_RELEASE_CLIENTCOMBINED_UUP_X64FRE_EN-US - created from [official UUP files}(https://mega.nz/#!FMcWWQ6S!O5eW4cB6L3V_-zm7zr-f8wAQk0Wan_Pm15FsNAKm1VI). 
 
-The pcaps are there in case you want to verify my words and decipher the traffic in order to see what is been transmitted.
+The pcaps are in this project in case you want to verify my words and decipher the traffic in order to see what has been transmitted after you opted-out of Microsoft's telemetry. 
 
-Please do not ask if I do this for Pro versions too, this project here is really huge and I don't have time to do this every month when something is changed or on other versions. The main goal is to identify what is been collected after you changed the telemetry via gpedit.msc (Group Policy Editor) to 0 [security only] in order to see if Microsoft holds what they promise or not. This must be done objectively.
+Please do not ask if I do this for Pro versions too, this project here is really huge and I don't have time to do this every month or when something is changed. The main goal is to identify what is been collected after you changed the telemetry via gpedit.msc (Group Policy Editor) to 0 [security only] in order to see if Microsoft holds what they promise or not. This must be done objectively.
 
 
 The default telemetry level is 'Full' for Windows 10 Home and Pro and Enhanced for Enterprise edition. On a device that is running an Insider preview edition, this value is set to Full and can only be changed by installing a released version.

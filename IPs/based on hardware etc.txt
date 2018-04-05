@@ -1,0 +1,5 @@
+Following connections are triggered based on what type of hardware/driver you've installed and excluded by this analysis.
+
+services.gfe.nvidia.com
+services-cdn.gfe.nvidia.com
+*WPAD

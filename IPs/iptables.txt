@@ -1,0 +1,8 @@
+iptables --append INPUT --in-interface eth0 --source 192.168.xxx.x/32 --jump DROP
+iptables --append INPUT --in-interface eth0 --source 52.138.216.83/32 --jump DROP
+iptables --append INPUT --in-interface eth0 --protocol tcp --source-port 50070 --jump DROP
+iptables --append INPUT --in-interface eth0 --protocol tcp --source-port 443 --jump DROP
+iptables --append INPUT --in-interface eth0 --protocol tcp --source 192.168.xxx.x/32 --source-port 50070 --jump DROP
+iptables --append INPUT --in-interface eth0 --protocol tcp --source 52.138.216.83/32 --source-port 443 --jump DROP
+iptables --append INPUT --in-interface eth0 --mac-source 5c:49:79:f5:67:e8 --jump DROP
+iptables --append INPUT --in-interface eth0 --mac-source c8:0e:14:c7:83:3c --jump DROP

@@ -1,0 +1,2 @@
+microsoft-ds	445/tcp
+microsoft-ds	445/udp
