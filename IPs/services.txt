@@ -1,2 +1,3 @@
 microsoft-ds	445/tcp
 microsoft-ds	445/udp
+*				Windows Update (excluded since you explicitly allow it)

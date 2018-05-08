@@ -1,6 +1,8 @@
-## Windows Redstone 4 (1803 Data analysis)
+## Windows Redstone 4 (1803 Data Analysis)
 
-Explains Windows telemetry, opt-out methods and provides some Wireshark/Burp dumps with an explanation. All findings are on the Enterprise Redstone 4 (Spring Creators Update) -> 17133.1.180323-1312.RS4_RELEASE_CLIENTCOMBINED_UUP_X64FRE_EN-US - created from [official UUP files}(https://mega.nz/#!FMcWWQ6S!O5eW4cB6L3V_-zm7zr-f8wAQk0Wan_Pm15FsNAKm1VI). 
+Status: **Work in progress*
+
+Explains Windows telemetry, opt-out methods and provides some Wireshark/Burp dumps with an explanation. All findings are on the Enterprise Redstone 4 (Spring Creators Update aka April Update) -> 17133.1.180323-1312.RS4_RELEASE_CLIENTCOMBINED_UUP_X64FRE_EN-US - created from [official UUP files](https://mega.nz/#!FMcWWQ6S!O5eW4cB6L3V_-zm7zr-f8wAQk0Wan_Pm15FsNAKm1VI). 
 
 The pcaps are in this project in case you want to verify my words and decipher the traffic in order to see what has been transmitted after you opted-out of Microsoft's telemetry. 
 
@@ -28,7 +30,7 @@ My own IP was obfuscated in order to protect my real location. My IP was replace
 Repository
 ===============
 
-Every troll comment, things without OWN prove gets immediately banned from my project without any first warning. I won't tolerate any trolling anymore in any of my projects. I don#t have time for this. 
+Every troll comment, things without OWN prove gets immediately banned from my project without any first warning. I won't tolerate any trolling anymore in any of my projects. I simply don't have time for this. 
 
 
 
@@ -43,9 +45,11 @@ Some services never submitting anything unless you use them, some running in the
 * Cortana (Anonymous info, usage information will be shared but not search history, Microsoft Account information, or specific location the stream is encrypted).
 * Possible some other tasks & services.msc related automatically enabled services (Keep in mind that even if there automatically started doesn't mean there submitting something unless xyz behavior was triggered).
 * Microsoft certified diagnostic tools: msinfo32.exe, powercfg.exe, and dxdiag.exe, lsass.exe (it is listening and calls svchost.exe under several circumstances)
+* svhost (dns, cert,..)
+* time
 
 
-Windows 10 Enterprise edition
+Windows 10 Enterprise Edition
 ===============
 
 * Automatic Root Certificates Update (enabled by default) 
@@ -100,6 +104,8 @@ Settings > Privacy via GPO or MDM/Registry or cmd line
 * Apps for websites (optional and depending on settings)
 * Windows Update Delivery Optimization (enabled by default)
 * Windows Update (enabled by default)
+* [Office Telemetry](https://technet.microsoft.com/library/jj863580.aspx) (optional)
+* [Diagnostic Data Viewer](https://www.microsoft.com/en-us/store/p/diagnostic-data-viewer/9n8wtrrsq8f7?rtc=1#) (optional only via App Store) it's data is explained [here](https://docs.microsoft.com/en-us/windows/configuration/basic-level-windows-diagnostic-events-and-fields).
 
 Server Editions and other Windows versions don't differ much because the settings are within the kernel, however some simply don't have a GUI, GPO/MDM or cmd.
 
