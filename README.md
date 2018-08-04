@@ -160,5 +160,11 @@ Gravity: Measures the force of gravity.
 
 ....
 
+## Research and Project Status
 
+This project got merged into an official MS document. The final conclusions and explanations gets uploaded once it's fully reviewed. 
+
+* Enterprise: [docs.microsoft.com/manage-windows-endpoints](https://docs.microsoft.com/en-us/windows/privacy/manage-windows-endpoints)
+* Windows 10 1709 Home, Pro, Education: [docs.microsoft.com/windows-endpoints-1709-non-enterprise-editions](https://docs.microsoft.com/en-us/windows/privacy/windows-endpoints-1709-non-enterprise-editions)
+* Windows 10 1803 Home, Pro, Education: [docs.microsoft.com/windows-endpoints-1803-non-enterprise-editions](https://docs.microsoft.com/en-us/windows/privacy/windows-endpoints-1803-non-enterprise-editions)
 
