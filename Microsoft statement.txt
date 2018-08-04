@@ -14,3 +14,4 @@ enter text, we may collect typed characters and use them for purposes such as im
 * https://docs.microsoft.com/en-us/windows/whats-new/whats-new-windows-10-version-1803
 * https://docs.microsoft.com/en-us/windows/configuration/configure-windows-diagnostic-data-in-your-organization
 * https://docs.microsoft.com/en-us/windows/configuration/basic-level-windows-diagnostic-events-and-fields
+* https://techcommunity.microsoft.com/t5/Windows-IT-Pro-Blog/Windows-10-update-servicing-cadence/ba-p/222376
