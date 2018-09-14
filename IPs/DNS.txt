@@ -1,4 +1,126 @@
+//Settings
+settings.data.microsoft.com
+settings-win.data.microsoft.com
 asimov-win.settings.data.microsoft.com.akadns.net
 geo.settings.data.microsoft.com.akadns.net
 db5.settings.data.microsoft.com.akadns.net
 db5-eap.settings.data.microsoft.com.akadns.net
+cy2.settings.data.microsoft.com.akadns.net
+
+//Apps
+tile-service.weather.microsoft.com
+BLOB.Weather.Microsoft.com
+mediaredirect.microsoft.com	
+cdn.onenote.net/livetile/?Language=en-US
+wildcard.twimg.com
+oem.twimg.com/windows/tile.xml
+star-mini.c10r.facebook.com
+candycrushsoda.king.com
+evoke-windowsservices-tas.msedge.net
+wallet.microsoft.com
+store-images.s-microsoft.com
+www.Bing.com/Client
+#www.Bing.com/Proactive
+#www.bing.com/threshold/xls.aspx
+
+//Certificates
+ctldl.windowsupdate.com
+Login.Live.com/ppsecure
+
+//Device meta-data
+dmd.metaservices.microsoft.com.akadns.net
+DMD.metaservices.Microsoft.com
+
+//Diagnostic data
+cy2.vortex.data.microsoft.com.akadns.net
+v10.vortex-win.data.microsoft.com/collect/v1
+watson.telemetry.microsoft.com
+modern.watson.data.microsoft.com.akadns.net
+
+//Fonts
+fs.microsoft.com
+fs.microsoft.com/fs/windows/config.json
+
+//License
+licensing.mp.microsoft.com/v7.0/licenses/content
+
+//Location
+location-inference-westus.cloudapp.net
+
+//Maps
+*g.akamaiedge.net
+
+//Microsoft Account
+login.msa.akadns6.net
+auth.gfx.ms
+
+//Microsoft Store
+*.wns.windows.com
+storecatalogrevocation.storequality.microsoft.com
+img-prod-cms-rt-microsoft-com.akamaized.net
+Store-images.microsoft.com
+storeedgefd.dsx.mp.microsoft.com
+pti.store.microsoft.com
+cy2.*.md.mp.microsoft.com.*.
+displaycatalog.mp.microsoft.com
+
+//NCSI
+www.msftconnecttest.com/connecttest.txt
+
+//MS Office
+*.a-msedge.net
+*.c-msedge.net
+*.e-msedge.net
+*.s-msedge.net
+Ocos-Office 365-s2s.msedge.net
+
+//system32\Auth.Host.exe
+outlook.office365.com
+
+//Windows Apps\Microsoft.Windows.Photos
+client-office365-tas.msedge.net
+
+//OneDrive
+g.live.com/1rewlive5skydrive/ODSUProduction
+oneclient.sfx.ms
+
+//Skype (microsoft.windowscommunicationsapps.exe)
+config.edge.skype.com
+
+//Windows Defender
+wdcp.microsoft.com
+definitionupdates.microsoft.com
+go.microsoft.com (MpCmdRun.exe)
+
+//Suggestions, Apps, Tipps, backgroundtaskhost.exe & search
+arc.msn.com
+g.msn.com.nsatc.net
+*.search.msn.com
+ris.api.iris.microsoft.com
+Query.Prod.CMS.RT.Microsoft.com
+
+//Windows Update
+*.prod.do.dsp.mp.microsoft.com
+*.windowsupdate.com
+fg.download.windowsupdate.com.c.footprint.net
+cds.d2s7q6s2.hwcdn.net
+*wac.phicdn.net
+*wac.edgecastcdn.net
+
+//Time Limited URL for Apps (svchost.exe)
+*.tlu.dl.delivery.mp.microsoft.com.c.footprint.net
+emdl.ws.Microsoft.com
+fe2.update.microsoft.com
+fe3.delivery.mp.microsoft.com
+fe3.delivery.dsp.mp.microsoft.com.nsatc.net
+sls.update.microsoft.com
+*.dl.delivery.mp.microsoft.com
+tsfe.trafficshaping.dsp.mp.microsoft.com
+a122.dscd.akamai.net
+a1621.g.akamai.net
+*.tlu.dl.delivery.mp.microsoft.com.c.footprint.net
+
+//FWLink
+go.microsoft.com
+
+
